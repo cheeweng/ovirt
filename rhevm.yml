@@ -1,5 +1,5 @@
 
-sts: localhost
+hosts: localhost
   tasks:
   - name: create a vm based on template
     ovirt: user=admin@internal url=https://rhevm2.coe.hst.sin2.redhat.com instance_name=ansiblevm1 password=$!ng@p0r3 image=ansible_template zone=Production resource_type=template
